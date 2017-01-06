@@ -133,10 +133,13 @@ h6 {
 .banner-social-buttons {
     float: right;
     margin-top: 0;
+}
+
+.intro-social-buttons li {
     background-color: #c1773e
 }
 
-.banner-social-buttons:hover {
+.intro-social-buttons li:hover {
     background-color: #925a2f
 }
 
