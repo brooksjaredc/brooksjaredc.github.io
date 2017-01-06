@@ -133,6 +133,11 @@ h6 {
 .banner-social-buttons {
     float: right;
     margin-top: 0;
+    background-color: #c1773e
+}
+
+.banner-social-buttons:hover {
+    background-color: #925a2f
 }
 
 @media(max-width:1199px) {
