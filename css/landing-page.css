@@ -141,7 +141,7 @@ h6 {
     border-color: #000;
 }
 
-.intro-social-buttons a:hover {
+.intro-social-buttons a:hover a:active {
     background-color: #a4581e;
     color: #000;
     border-color: #000;    
@@ -153,7 +153,7 @@ h6 {
     border-color: #000;
 }
 
-.banner-social-buttons a:hover {
+.banner-social-buttons a:hover a:active {
     background-color: #a4581e;
     color: #000;
     border-color: #000;
