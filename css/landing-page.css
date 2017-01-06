@@ -135,11 +135,11 @@ h6 {
     margin-top: 0;
 }
 
-.intro-social-buttons li {
+.intro-social-buttons a {
     background-color: #c1773e
 }
 
-.intro-social-buttons li:hover {
+.intro-social-buttons a:hover {
     background-color: #925a2f
 }
 
