@@ -147,25 +147,25 @@ h6 {
 }
 
 .intro-social-buttons a {
-    background-color: #d77428;
+    background-color: #529dff;
     color: #000;
     border-color: #000;
 }
 
 .intro-social-buttons a:hover, a:active {
-    background-color: #a4581e;
+    background-color: #1d6acd;
     color: #000;
     border-color: #000;    
 }
 
 .banner-social-buttons a {
-    background-color: #d77428;
+    background-color: #529dff;
     color: #000;
     border-color: #000;
 }
 
 .banner-social-buttons a:hover, a:active {
-    background-color: #a4581e;
+    background-color: #1d6acd;
     color: #000;
     border-color: #000;
 }
