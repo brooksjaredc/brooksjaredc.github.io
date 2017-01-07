@@ -202,6 +202,10 @@ h6 {
     background: linear-gradient(top, #808080 0%,#808080 100%); /* W3C */
 }
 
+.banner-top {
+    padding-top: 150px;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
