@@ -244,7 +244,7 @@ p.research-date {
     font-size: 14px;
     color: #000;
     padding-top: 10px;
-    border-top: 2px;
+    border-top: 2px solid;
     border-top-color: #000;
     margin-top: 10px;
     font-weight: normal;
