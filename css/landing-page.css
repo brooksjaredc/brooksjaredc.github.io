@@ -249,3 +249,7 @@ p.research-date {
     margin-top: 10px;
     font-weight: normal;
 }
+
+.paper {
+    max-width: 20%;
+}
