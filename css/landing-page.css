@@ -255,3 +255,7 @@ p.research-date {
     margin: 0 auto;
     padding-top: 20px;
 }
+
+a.carousel-control {
+    padding-top: 20px;
+}
