@@ -250,7 +250,8 @@ p.research-date {
     font-weight: normal;
 }
 
-.item {
-    max-width: 50%;
+.carousel-inner{
+    max-width: 75%;
     margin: 0 auto;
+    padding-top: 20px;
 }
