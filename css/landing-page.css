@@ -239,3 +239,8 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+p.research-date {
+    font-size: 14px;
+    color: #000;
+}
