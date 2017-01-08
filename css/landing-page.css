@@ -243,8 +243,9 @@ p.copyright {
 p.research-date {
     font-size: 14px;
     color: #000;
-    padding-top: 4px;
-    border-top: 1px;
-    margin-top: 4px;
+    padding-top: 10px;
+    border-top: 2px;
+    border-top-color: #000;
+    margin-top: 10px;
     font-weight: normal;
 }
