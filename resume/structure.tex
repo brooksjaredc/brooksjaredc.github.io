@@ -77,17 +77,19 @@ SmallCapsFeatures = {Letters = SmallCaps}
 %	JOB COMMAND
 %----------------------------------------------------------------------------------------
 
-\newcommand{\job}[6]{
+\newcommand{\joba}[4]{
+\begin{tabbing}
+\hspace{2cm} \= \kill \textbf{#1} \> \begin{minipage}{\smallertextwidth}\href{#3}{#2}\end{minipage} \\
+\>\+ \begin{minipage}{\smallertextwidth}\vspace{2mm}#4\end{minipage} 
+\end{tabbing}}
+
+\newcommand{\jobb}[4]{
 \begin{tabbing}
 \hspace{2cm} \= \kill
-\textbf{#1} \> \href{#4}{#3} \\
-\textbf{#2} \>\+ \textit{#5} \\
-\begin{minipage}{\smallertextwidth}
-\vspace{2mm}
-#6
-\end{minipage}
+\textbf{#1} \> \begin{minipage}{\smallertextwidth}\href{#3}{#2}\end{minipage} \\
+\>\+ \begin{minipage}{\smallertextwidth}\vspace{4mm}#4\end{minipage} 
 \end{tabbing}
-\vspace{2mm}
+%\vspace{2mm}
 }
 
 %----------------------------------------------------------------------------------------
