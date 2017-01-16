@@ -259,3 +259,7 @@ p.research-date {
 a.carousel-control {
     top: 20px;
 }
+
+p.personal-image-text {
+    font-weight: normal;
+}
