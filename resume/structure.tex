@@ -45,10 +45,11 @@ SmallCapsFeatures = {Letters = SmallCaps}
 \usepackage{sectsty} % Allows customization of titles
 \sectionfont{\color{slateblue}} % Color section titles
 
-\fancypagestyle{plain}{\fancyhf{}\cfoot{\thepage\ of \pageref{LastPage}}} % Define a custom page style
+%\fancypagestyle{plain}{\fancyhf{}\cfoot{\thepage\ of \pageref{LastPage}}} % Define a custom page style
 \pagestyle{plain} % Use the custom page style through the document
 \renewcommand{\headrulewidth}{0pt} % Disable the default header rule
 \renewcommand{\footrulewidth}{0pt} % Disable the default footer rule
+\pagenumbering{gobble}
 
 \setlength\parindent{0pt} % Stop paragraph indentation
 
@@ -70,7 +71,7 @@ SmallCapsFeatures = {Letters = SmallCaps}
 
 \renewcommand{\title}[1]{
 {\huge{\color{slateblue}\textbf{#1}}}\\ % Header section name and color
-\rule{\textwidth}{0.5mm}\\ % Rule under the header
+\rule{\textwidth}{0.5mm} % Rule under the header
 }
 
 %----------------------------------------------------------------------------------------
@@ -86,8 +87,8 @@ SmallCapsFeatures = {Letters = SmallCaps}
 \newcommand{\jobb}[4]{
 \begin{tabbing}
 \hspace{2cm} \= \kill
-\textbf{#1} \> \begin{minipage}{\smallertextwidth}\href{#3}{#2}\end{minipage} \\
-\>\+ \begin{minipage}{\smallertextwidth}\vspace{4mm}#4\end{minipage} 
+\textbf{#1} \\ \begin{minipage}{\smallertextwidth}\vspace{2mm}{#2}\end{minipage} \\
+\begin{minipage}{\smallertextwidth}\vspace{2mm}#3\end{minipage} 
 \end{tabbing}
 %\vspace{2mm}
 }
