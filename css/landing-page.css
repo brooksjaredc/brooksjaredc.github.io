@@ -263,3 +263,7 @@ a.carousel-control {
 p.personal-image-text {
     font-weight: normal;
 }
+
+video {
+    top: 20px;
+}
