@@ -263,3 +263,7 @@ a.carousel-control {
 p.personal-image-text {
     font-weight: normal;
 }
+
+video#kipp {
+    margin-top: 50px;
+}
