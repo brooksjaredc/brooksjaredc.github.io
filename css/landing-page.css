@@ -267,3 +267,7 @@ p.personal-image-text {
 video#kipp {
     margin-top: 50px;
 }
+
+.pic-and-text {
+    display: block;
+}
