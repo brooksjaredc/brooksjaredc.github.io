@@ -260,7 +260,9 @@ p.research-date {
 }
 
 .paper-box {
-    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 a.carousel-control {
