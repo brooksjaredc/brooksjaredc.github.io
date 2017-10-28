@@ -259,6 +259,10 @@ p.research-date {
     transform: translateY(-50%);*/
 }
 
+.paper-box {
+    margin: auto;
+}
+
 a.carousel-control {
     top: 20px;
 }
