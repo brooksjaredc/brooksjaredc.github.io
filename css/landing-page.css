@@ -252,7 +252,7 @@ p.research-date {
 
 .research-paper {
     max-width: 75%;
-    margin: 0 auto;
+    /*margin: 0 auto;
     /*padding-top: 20px;*/
     position: relative;
     top: 50%;
