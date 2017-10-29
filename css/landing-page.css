@@ -257,7 +257,8 @@ p.research-date {
 }
 
 .paper-box {
-    transform: translateY(20%);
+    /*transform: translateY(20%);*/
+    height: auto;
 }
 
 a.carousel-control {
