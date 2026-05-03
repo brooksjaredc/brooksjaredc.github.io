@@ -87,57 +87,168 @@
     <!-- /.banner -->
 
 
-    <!-- Page Content -->
-
-	<a  name="services"></a>
-
-
-    <div class="content-section-b">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading"><a target="_blank" href="https://abodemine.com/">Staff Data Scientist at Abodemine</a></h2>
-                    <p class="lead">I am currently a Staff Data Scientist at Abodemine, where I work on production data science and AI-assisted data integration. My current project focuses on matching client workbook schemas to an internal canonical schema using AI and LLM workflows, helping turn heterogeneous customer data into consistent, usable inputs for downstream systems.</p>
-                    <p class="lead">This work sits in a high-impact area of applied AI: combining prompt design, structured outputs, validation logic, domain rules, and human-reviewable confidence signals so LLMs can support real operational data workflows.</p>
+    <main class="experience-page">
+        <section class="content-section-b experience-overview">
+            <div class="container">
+                <div class="section-intro">
+                    <p class="eyebrow">Experience</p>
+                    <h2>Production data science, applied AI, and ML product leadership.</h2>
+                    <p>
+                        My work combines modeling, software engineering, product intuition, and scientific rigor. I have
+                        built AI systems for messy real-world data, launched production fraud models, improved identity
+                        verification accuracy, and created infrastructure that makes data science teams faster and more reliable.
+                    </p>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <a target="_blank" href="https://abodemine.com/">
-                        <img class="img-responsive img-thumbnail" width="275" src="/img/abodemine_logo.jpeg" alt="Abodemine logo">
-                    </a>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading"><a target="_blank" href="https://www.prove.com/">Senior Data Scientist at Prove</a></h2>
-                    <p class="lead">At Prove, a digital identity and authentication company that helps businesses verify users quickly and securely using mobile signals, I grew from a data analyst to a <a target="_blank" href="https://www.linkedin.com/in/brooksjaredc/">senior data scientist</a>. Over the years, I led impactful machine learning initiatives like launching an international Trust Score model that expanded global product reach and revamping an Assurance Level system to improve accuracy for a core identity product. I also built scalable monitoring tools and championed software engineering practices that improved deployment speed and team efficiency.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <a target="_blank" href="https://www.prove.com/">
-                        <img class="img-responsive img-thumbnail" width="275" src="/img/Prove-Identity-circle-logo-300x300.png" alt="Prove logo">
-                    </a>
+                <div class="experience-metrics">
+                    <div>
+                        <strong>1,000+ attributes</strong>
+                        <span>Canonical schema target for AI-assisted loan tape matching</span>
+                    </div>
+                    <div>
+                        <strong>99% AL=3 accuracy</strong>
+                        <span>Improved flagship identity verification precision at Prove</span>
+                    </div>
+                    <div>
+                        <strong>98% fraud caught</strong>
+                        <span>Risk Score model performance at 3% friction rate</span>
+                    </div>
+                    <div>
+                        <strong>200% faster deployment</strong>
+                        <span>New model microservice framework for International TrustScore</span>
+                    </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-        <!-- /.container -->
+        <section class="content-section-a case-study">
+            <div class="container">
+                <div class="case-study-header">
+                    <div>
+                        <p class="eyebrow">Current Role</p>
+                        <h2><a target="_blank" href="https://abodemine.com/">Abodemine</a></h2>
+                        <p class="role-title">Staff Data Scientist | Denver, CO | Nov. 2025 - Present</p>
+                    </div>
+                    <a class="company-logo-link" target="_blank" href="https://abodemine.com/">
+                        <img src="/img/abodemine_logo.jpeg" alt="Abodemine logo">
+                    </a>
+                </div>
 
-    </div>
-    <!-- /.content-section-a -->
+                <div class="case-study-grid">
+                    <article class="case-card case-card-wide">
+                        <p class="card-kicker">Case Study</p>
+                        <h3>AI-assisted loan tape schema matching</h3>
+                        <p>
+                            Abodemine clients upload loan tapes in inconsistent spreadsheet formats when evaluating groups
+                            of mortgages to buy or sell. I architected an LLM-driven column matching system that maps
+                            ambiguous client workbook fields to a canonical property and loan dataset of more than 1,000
+                            attributes.
+                        </p>
+                    </article>
+                    <article class="case-card">
+                        <p class="card-kicker">Problem</p>
+                        <h3>Messy client workbooks</h3>
+                        <p>
+                            Client spreadsheets often use different field names, workbook layouts, enum values, and
+                            data conventions for the same underlying loan and property concepts.
+                        </p>
+                    </article>
+                    <article class="case-card">
+                        <p class="card-kicker">Approach</p>
+                        <h3>LLMs plus deterministic rules</h3>
+                        <p>
+                            I built the prompting framework, deterministic rule engine, data normalization, enum mapping,
+                            and multi-stage validation flow using Python, LLM APIs, Anthropic, and Gemini.
+                        </p>
+                    </article>
+                    <article class="case-card">
+                        <p class="card-kicker">Reliability</p>
+                        <h3>Evaluation and feedback loops</h3>
+                        <p>
+                            I built the evaluation data pipeline and a human-in-the-loop feedback system that captures
+                            client corrections so matching quality can improve as the product scales.
+                        </p>
+                    </article>
+                    <article class="case-card">
+                        <p class="card-kicker">Related ML Systems</p>
+                        <h3>Entity resolution and monitoring</h3>
+                        <p>
+                            I also designed a scalable entity resolution system for real estate transaction records and
+                            developed model monitoring infrastructure for reliability, drift detection, and maintainability.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section-b case-study">
+            <div class="container">
+                <div class="case-study-header">
+                    <div>
+                        <p class="eyebrow">Previous Role</p>
+                        <h2><a target="_blank" href="https://www.prove.com/">Prove</a></h2>
+                        <p class="role-title">Senior Data Scientist | Denver, CO | Jan. 2021 - Nov. 2025</p>
+                    </div>
+                    <a class="company-logo-link" target="_blank" href="https://www.prove.com/">
+                        <img src="/img/Prove-Identity-circle-logo-300x300.png" alt="Prove logo">
+                    </a>
+                </div>
+
+                <div class="case-study-grid">
+                    <article class="case-card case-card-wide">
+                        <p class="card-kicker">Case Study</p>
+                        <h3>Fraud, identity, and production ML leadership</h3>
+                        <p>
+                            At Prove, I worked across ML product impact, identity and fraud risk, and production data
+                            science infrastructure. I grew from Data Analyst to Senior Data Scientist while leading
+                            initiatives that improved core verification products and created new model deployment patterns.
+                        </p>
+                    </article>
+                    <article class="case-card">
+                        <p class="card-kicker">Risk Score</p>
+                        <h3>Self-directed ML product</h3>
+                        <p>
+                            I built and championed Risk Score, a product that collected onboarding signals into a trained
+                            XGBoost model. It caught 98% of fraud at a 3% friction rate, reducing friction by more than
+                            80% versus previous solutions.
+                        </p>
+                    </article>
+                    <article class="case-card">
+                        <p class="card-kicker">Executive Buy-In</p>
+                        <h3>From idea to CTO approval</h3>
+                        <p>
+                            Risk Score was a self-directed project that I pitched up the management chain to the CTO,
+                            who greenlit it and two additional ML products after hearing the proposal.
+                        </p>
+                    </article>
+                    <article class="case-card">
+                        <p class="card-kicker">TrustScore</p>
+                        <h3>Global model deployment</h3>
+                        <p>
+                            I architected and deployed the International TrustScore ML model from concept to production,
+                            establishing a model microservice framework that accelerated deployment cycles by 200%.
+                        </p>
+                    </article>
+                    <article class="case-card">
+                        <p class="card-kicker">Assurance Level</p>
+                        <h3>Flagship product accuracy</h3>
+                        <p>
+                            I overhauled the legacy Assurance Level verification system with ML enhancements that
+                            increased AL=3 accuracy to 99%, directly strengthening Verified Users.
+                        </p>
+                    </article>
+                    <article class="case-card">
+                        <p class="card-kicker">Engineering Leverage</p>
+                        <h3>Team infrastructure</h3>
+                        <p>
+                            I developed the team's core Python repository with pytest and GitLab CI/CD, reducing
+                            scripting overhead by 70%, and collaborated on LazerDome, a centralized AWS environment
+                            for secure access and improved collaboration.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
