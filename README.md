@@ -1,27 +1,28 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Landing Page](http://startbootstrap.com/template-overviews/landing-page/)
+# Jared Brooks Personal Website
 
-[Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+This repository contains the static GitHub Pages site for Jared Brooks.
 
-## Getting Started
+The site is currently a lightweight HTML/CSS portfolio focused on professional experience, selected data science projects, astrophysics research, and contact information.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-landing-page.git`
-* Fork the repo
+## Local Preview
 
-## Bugs and Issues
+From the repository root:
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-landing-page/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/).
+```sh
+python3 -m http.server 8000
+```
 
-## Creator
+Then open:
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+```text
+http://localhost:8000/
+```
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Key Files
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
+- `index.html`: homepage and primary professional landing page
+- `css/landing-page.css`: shared styling plus the refreshed homepage styles
+- `work_experience/index.html`: professional experience details
+- `projects/index.html`: data science project archive
+- `research/index.html`: academic research and publications
+- `resume/jared_brooks_resume.pdf`: public resume linked from the site
