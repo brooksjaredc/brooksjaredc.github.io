@@ -530,6 +530,46 @@ video#kipp {
     gap: 22px;
 }
 
+.scan-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.scan-card,
+.strength-card {
+    padding: 26px;
+    background: #ffffff;
+    border: 1px solid #d9e5e8;
+    border-radius: 8px;
+    box-shadow: 0 12px 30px rgba(31, 41, 51, 0.07);
+}
+
+.scan-card h3,
+.strength-card h3 {
+    margin: 0 0 12px;
+    color: #16202a;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.scan-card p,
+.strength-card p {
+    color: #53616d;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.strength-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.strength-card {
+    min-height: 228px;
+}
+
 .feature-card {
     display: grid;
     grid-template-columns: 260px minmax(0, 1fr);
@@ -1029,6 +1069,8 @@ video#kipp {
     }
 
     .proof-grid,
+    .scan-grid,
+    .strength-grid,
     .card-grid,
     .ai-work-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1068,6 +1110,8 @@ video#kipp {
     }
 
     .proof-grid,
+    .scan-grid,
+    .strength-grid,
     .card-grid,
     .ai-work-grid {
         grid-template-columns: 1fr;
